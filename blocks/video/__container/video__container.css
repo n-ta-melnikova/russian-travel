@@ -1,0 +1,26 @@
+.video__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  grid-gap: 16px;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video__container {
+    margin: -16px 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__container {
+    margin: -24x 0 0;
+    grid-gap: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__container {
+    margin: -16x 0 0;
+  }
+}
