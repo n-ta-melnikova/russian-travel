@@ -1,7 +1,3 @@
-@import url(./_position/video__item_position_left.css);
-@import url(./_position/video__item_position_right.css);
-
-
 .video__item {
   background-size: cover;
   width: 100%;
