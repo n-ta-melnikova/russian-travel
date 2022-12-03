@@ -2,7 +2,6 @@
 @import url(./__comment-image/comments__comment-image.css);
 @import url(./__comment-quote/comments__comment-quote.css);
 @import url(./__comment/comments__comment.css);
-@import url(./__container/comments__container.css);
 
 .comments {
   display: flex;
